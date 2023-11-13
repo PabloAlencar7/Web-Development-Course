@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 2px solid red;
+    width: 140px;
+    height: 170px;
+    position: fixed;
+    left: 50px;
+    top: 10px;
+    z-index: -1;
+    opacity: 0.5;
+
+}
+
+.square {
+    width: 75px;
+    height: 110px;
+    background: white;
+    padding: 8px;
+    color: red;
+    border: 1px red solid;
+
+}
+
+#squareJ {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+    opacity: 100%;
+}
+
+#squareQ {
+    background: white;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    z-index: 2;
+    opacity: 100%;
+}
+
+#squareK {
+    background: white;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 3;
+    opacity: 100%;
+}
+
+
+
+h2, p {
+    margin-top: 24px;
+}
+
+h2 {
+    position: sticky;
+    top: 0;
+    background: gray;
+}

@@ -1,0 +1,71 @@
+.title {
+    font-size: 42px;
+    color: white;
+}
+
+.title:hover {
+    color: black;
+    font-style: italic;
+    text-decoration: underline;
+    cursor: pointer;
+    transition-duration: 200ms;
+}
+
+body {
+    background: white;
+}
+
+.square {
+    height: 100px;
+    width: 100px;
+    background: white;
+    transition-duration: 200ms;
+}
+
+.square:hover {
+    background: black;
+    cursor: pointer;
+    width: 100px;
+    height: 500px;
+}
+
+input {
+    margin-top: 24px;
+}
+
+.spinnerLoading {
+    width: 48px;
+    height: 48px;
+    display: block;
+    margin: auto;
+    animation-name: spinner;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spinner {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes slide {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: rotate(0%);
+    }
+}
+
+p {
+    animation-name: slide;
+    animation-duration: 5s;
+}
+  

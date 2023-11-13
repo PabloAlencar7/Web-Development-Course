@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background {
+    height: 330px;
+    width: 330px;
+    background: linear-gradient(130deg, #6559CA, #BC318F 30%, #E33F5F 50%, #F77638 70%, #FEC66D 90%);
+    border-radius: 25%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.square {
+    height: 240px;
+    width: 240px;
+    border-radius: 30%;
+    border: 24px solid white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+}
+
+.circle {
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+    border: 24px solid white;
+}
+
+.dot {
+    height: 32px;
+    width: 32px;
+    background: white;
+    border-radius: 100%;
+    position: absolute;
+    top: 18px;
+    right: 18px;
+}

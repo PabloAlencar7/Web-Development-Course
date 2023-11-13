@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Class 06 Forms</title>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <legend>Login</legend>
+        <section>
+          <label for="userEmail"> E- mail: </label>
+          <input
+            type="email"
+            name="userEmail"
+            id="userEmail"
+            placeholder="example@mymail.com"
+            required
+          />
+        </section>
+        <br />
+        <section>
+          <label for="userPassword"> Senha: </label>
+          <input
+            type="password"
+            name="userPassword"
+            id="userPassword"
+            placeholder="Digite sua senha"
+            required
+            minlength="8"
+          />
+        </section>
+        <br />
+        <button type="submit">Logar</button>
+      </fieldset>
+    </form>
+    <br />
+    <form>
+      <input
+        type="number"
+        name="userAge"
+        placeholder="Digite sua Idade"
+        inputmode="numeric"
+        min="16"
+        max="75"
+        minlength="2"
+        maxlength="2"
+        step="5"
+      />
+      <br /><br />
+      <input type="date" value="2003-09-03" name="birth" /><br />
+      <br />
+      <input type="range" min="0" max="100" name="volume" value="70" step="5" />
+      <br /><br />
+      <input type="file" accept="image/*" />
+      <!--  accept: ".doc"; ".pdf"; ".svg"; "image/*" -->
+      <br /><br />
+      <input type="color" name="favoriteColor" />
+      <br /><br />
+
+      <section>
+        <input type="checkbox" id="audio" name="audio" />
+        <label for="audio">Audio</label>
+      </section>
+
+      <section>
+        <input type="checkbox" id="video" name="video" />
+        <label for="video">Video</label>
+      </section>
+      <section>
+        <input type="radio" id="yes" name="term" value="on">
+        <label for="yes">Sim</label>
+      </section>
+      <section>
+        <input type="radio" id="no" name="term" value="off">
+        <label for="no">Não</label>
+      </section>
+      <br><br>
+      <select name="" id="">
+        <option value="Oi">Oi</option>
+        <option value="Linda">Tchau</option>
+      </select>
+      <br><br>
+      <textarea 
+      name="obs" 
+      id="obs" 
+      cols="30" 
+      rows="10"></textarea><br><br>
+      <button>Enviar</button>
+    </form>
+  </body>
+</html>

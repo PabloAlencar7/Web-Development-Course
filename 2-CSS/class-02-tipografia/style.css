@@ -1,0 +1,48 @@
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background: url(../../1-HTML/class-03-medias/challenges/fkj.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+#banner {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background: #7b00bd;
+  color: white;
+  border: #490070 solid 8px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  left: 0px;
+}
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 1px black;
+}
+
+#poem {
+  background: #b749f2;
+  color: white;
+  font-size: 16px;
+  position: absolute;
+  top: 100px;
+  font-weight: 700;
+  font-weight: bolder;
+  font-style: italic;
+  letter-spacing: 2px;
+  font-family: "Roboto", sans-serif;
+  text-decoration: underline white;
+  text-shadow: 1px 1px 1px black;
+}
+
+#but01 {
+  position: absolute;
+  top: 220px;
+  background-image: linear-gradient(green, yellow, red);
+}
