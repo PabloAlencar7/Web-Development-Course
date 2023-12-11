@@ -1,6 +1,8 @@
-function msKmh(num1) {
-    const calcConvert = num1 * 3.6;
-    document.write(`⚠️ ${num1} m/s equivalem à ${calcConvert} Km/h.`)
+function msKmh(ms) {
+    const kmh = ms * 3.6;
+    return kmh;
 }
 
-msKmh(30);
+const ms = parseFloat(prompt("Digite a velocidade em m/s:"));
+const convert = msKmh(ms);
+window.alert(`⚠️ ${ms} m/s equivale à ${convert} Km/h.`);                       
