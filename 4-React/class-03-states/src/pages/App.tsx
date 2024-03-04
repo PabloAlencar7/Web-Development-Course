@@ -1,0 +1,24 @@
+import { useState } from "react";
+
+export function App() {
+  const [count, setCount] = useState(0);
+  const [name, setName] = useState("");
+
+  function add() {
+    setCount((count) => count + 1);
+    setName("Pablo Alencar");
+  }
+
+  function rem() {
+    setCount((count) => count - 1);
+  }
+  return (
+    <>
+      <h1>Class States</h1>
+      <h2>{name}</h2>
+      <p>Count: {count}</p>
+      <button onClick={rem}>{"<<"}</button>
+      <button onClick={add}>{">>"}</button>
+    </>
+  );
+}
