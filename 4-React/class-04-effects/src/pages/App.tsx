@@ -28,10 +28,11 @@ export function App() {
       <p>Count2: {count2}</p>
       <button onClick={() => setCount((value) => value + 1)}>Add</button>
 
-      <UserCard 
-      avatar_url={dataUser.avatar_url}
-      name={dataUser.name}
-      bio={dataUser.bio}/>
+      <UserCard
+        avatar_url={dataUser.avatar_url}
+        name={dataUser.name}
+        bio={dataUser.bio}
+      />
     </>
   );
 }
