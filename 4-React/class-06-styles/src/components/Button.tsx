@@ -1,7 +1,9 @@
+import { ButtonContainer } from "./style";
+
 export function Button() {
   return (
     <>
-      <button>Click</button>
+      <ButtonContainer>Click</ButtonContainer>
     </>
   );
 }
